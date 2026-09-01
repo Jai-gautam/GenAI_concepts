@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "style_input",
+        "user_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    You are a helpful assistant that summarises research papers. \n    The user will provide you with a research paper and you will summarise it in the style and length they choose.\n    The user has chosen the following options:\n    - Research Paper: {user_input}\n    - Style: {style_input}\n    - Length: {length_input}\n    \n    Please provide a summary of the research paper based on the user's choices.\n    \n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
